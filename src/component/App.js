@@ -5,6 +5,7 @@ class App extends React.Component{
     state={language:'english'};
     onLanguageChange=(language)=>{
         this.setState({language});
+        console.log("hello");
     }
 
     render(){
